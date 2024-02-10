@@ -5,9 +5,34 @@ const port = process.env.PORT || 8080; // Choose port from here like 8080, 3001
 
 // Sample data
 let posts = [
-  { id: 1, title: 'Post 1', body: 'This is the first post.' },
-  { id: 2, title: 'Post 2', body: 'This is the second post.' },
-  { id: 3, title: 'Post 3', body: 'This is the third post.' }
+ {
+        "name": "Bed",
+        "price": "1000",
+        "dec": "Bed",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2022/8/LP/JA/IM/13002005/61detbxktml-sl1081--500x500.jpg",
+        "id": 1
+      },
+      {
+        "name": "Table Set",
+        "price": 700,
+        "dec": "Table Set",
+        "image": "https://5.imimg.com/data5/SN/PJ/OU/SELLER-65814729/wooden-furniture-items.jpg",
+        "id": 2
+      },
+      {
+        "name": "Sofa",
+        "price": 700,
+        "dec": "Sofa",
+        "image": "https://sundaydesign.co.in/cdn/shop/files/HARSF-007.jpg?v=1697446153",
+        "id": 3
+      },
+      {
+        "name": "Office Table",
+        "price": 700,
+        "dec": "Office Table set",
+        "image": "https://ighomall.com/image/cache/catalog/products/office-furniture/4-feet-office-table-with-3-drawers-4-feet-office-table-with-3-drawers-550x550.jpg",
+        "id": 4
+      }
 ];
 
 // Middleware to parse JSON requests
