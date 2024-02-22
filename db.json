@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "name": "Bed",
+      "name": "Beds",
       "price": "1000",
       "dec": "Bed",
       "image": "https://res.cloudinary.com/ddxwdqwkr/image/upload/v1690837534/patterns.dev/Images/vue/intro/vue.png",
